@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- contact form section -->
+    <section class="contact-section">
+        <h2>Start a Project with Me</h2>
+        <form action="formsucess.html" class="contact-form">
+          <label for="name">Enter Your Name</label>
+          <input type="text" id="name" placeholder="Sanjai Kumar" required>
+      
+          <label for="email">Enter Your Email ID</label>
+          <input type="email" id="email" placeholder="sanjai@gmail.com" required>
+      
+          <label for="subject">Select Your Subject</label>
+          <select id="subject" required>
+            <option value="">----</option>
+            <option value="Landing Page Projects">Landing Page Projects</option>
+            <option value="E-Commerce & Business Websites">E-Commerce & Business Websites</option>
+            <option value="Tech & Productivity Web Apps">Tech & Productivity Web Apps</option>
+            <option value="Portfolio & Personal Blog">Portfolio & Personal Blog</option>
+          </select>
+      
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+      
+          <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+      
+    <!-- Footer part -->
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2025 Gowsalya. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Email</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>
